@@ -4,7 +4,8 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import PhotoGrid from "../components/PhotoGrid";
 import PhotoModal from "../components/PhotoModal";
-import { AppThemeProvider, useSearchQuery } from "../context/ThemeContext";
+import { useSearchQuery } from "../context/SearchQueryContext";
+import { AppThemeProvider } from "../context/ThemeContext";
 import {
   fetchPhotoById,
   fetchPhotos,

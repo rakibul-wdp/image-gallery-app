@@ -15,8 +15,8 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
+import { useAppTheme, useAppThemeUpdate } from "../context/ThemeContext";
 import Search from "./Search";
-import { useAppTheme, useAppThemeUpdate } from "./ThemeContext";
 
 const Navbar = () => {
   const [showSearchBar, setShowSearchBar] = useState(false);

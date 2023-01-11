@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { alpha, styled } from "@mui/system";
 import React, { useRef } from "react";
-import { useSearchQuery, useSearchQueryUpdate } from "./SearchQueryContext";
+import { useSearchQuery, useSearchQueryUpdate } from "../context/SearchQueryContext";
 
 const Search = ({ dense = false }) => {
   const searchBoxRef = useRef();

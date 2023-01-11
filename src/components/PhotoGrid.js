@@ -1,4 +1,4 @@
-import { Masonry } from "@mui/lab/Masonry";
+import Masonry from "@mui/lab/Masonry";
 import { Container } from "@mui/material";
 import React from "react";
 import PhotoCard from "./PhotoCard";

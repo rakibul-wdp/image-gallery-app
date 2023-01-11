@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import { useSearchQueryUpdate } from "./SearchQueryContext";
+import { useSearchQueryUpdate } from "../context/SearchQueryContext";
 
 const TagList = ({ tags, onAfterTagClick }) => {
   const updateSearchQuery = useSearchQueryUpdate();
