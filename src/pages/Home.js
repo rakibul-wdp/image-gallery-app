@@ -1,3 +1,5 @@
+import "@fontsource/montserrat";
+import "@fontsource/pattaya";
 import { Container, Paper, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
