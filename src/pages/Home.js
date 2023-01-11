@@ -2,6 +2,7 @@ import "@fontsource/montserrat";
 import "@fontsource/pattaya";
 import { Container, Paper, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import PhotoGrid from "../components/PhotoGrid";
@@ -88,6 +89,7 @@ const Home = () => {
           handleClose={handleModalClose}
         />
       </Paper>
+      <Footer />
     </AppThemeProvider>
   );
 };

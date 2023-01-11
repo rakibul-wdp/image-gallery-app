@@ -7,13 +7,12 @@ import {
   Container,
   Grow,
   IconButton,
-  styled,
   Switch,
   Toolbar,
   Typography,
   useMediaQuery
 } from "@mui/material";
-import { Box } from "@mui/system";
+import { Box, styled } from "@mui/system";
 import React, { useState } from "react";
 import { useAppTheme, useAppThemeUpdate } from "../context/ThemeContext";
 import Search from "./Search";
