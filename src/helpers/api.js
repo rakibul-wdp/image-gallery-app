@@ -25,3 +25,12 @@ export const fetchPhotosByQuery = async (query) => {
   }
   return [];
 };
+
+// Fetch single photo by id
+export const fetchPhotoById = async (photoId) => {
+  const result = await unsplash.photos.get({ photoId: photoId });
+  if (result.type === "success") {
+    return result.response;
+  }
+  return null;
+};
