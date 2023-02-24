@@ -4,7 +4,7 @@ import React from "react";
 import HeaderImg from "../assets/images/header.jpg";
 import Search from "./Search";
 
-const Header = () => {
+const Hero = () => {
   return (
     <Box sx={header}>
       <Typography
@@ -40,4 +40,4 @@ const header = {
   p: 2,
 };
 
-export default Header;
+export default Hero;
