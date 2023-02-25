@@ -1,4 +1,4 @@
-# Image Gallery App [Live Site]()
+# Image Gallery App [Live Site](https://image-gallery-by-rakibul-wdp.netlify.app/)
 
 ## Feature & Description
 
@@ -8,6 +8,7 @@
 - Technologies: JavaScript, React, MUI, Unsplash, etc.
 
 ## Video Preview
+https://user-images.githubusercontent.com/85154840/221347059-ccf7bab4-61d7-4672-9edb-585cb191684e.mp4
 
 ## Tasks
 
