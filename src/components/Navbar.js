@@ -6,13 +6,11 @@ import {
   AppBar,
   Container,
   Grow,
-  IconButton,
-  Switch,
+  IconButton, styled, Switch,
   Toolbar,
-  Typography,
-  useMediaQuery
+  Typography, useMediaQuery
 } from "@mui/material";
-import { Box, styled } from "@mui/system";
+import { Box } from "@mui/system";
 import React, { useState } from "react";
 import { useAppTheme, useAppThemeUpdate } from "../context/ThemeContext";
 import Search from "./Search";
