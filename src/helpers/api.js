@@ -1,7 +1,7 @@
 import { createApi } from "unsplash-js";
 
 const unsplash = createApi({
-  accessKey: "SX3dNNkkdZQqHIUVmQZPhWz-5-Q-uGuQmIj8JvvRP9Q",
+  accessKey: process.env.REACT_APP_ACCESS_KEY,
 });
 
 // Fetch fresh photos
